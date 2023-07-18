@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.1" class="java.beans.XMLDecoder">
+ <array class="zigen.plugin.db.core.IDBConfig" length="1">
+  <void index="0">
+   <object class="zigen.plugin.db.core.DBConfig" id="DBConfig0">
+    <void property="charset">
+     <string></string>
+    </void>
+    <void property="classPaths">
+     <array class="java.lang.String" length="1">
+      <void index="0">
+       <string>C:\Users\new-kensyu\Downloads\mysql-connector-java-8.0.28.jar</string>
+      </void>
+     </array>
+    </void>
+    <void property="convertUnicode">
+     <boolean>true</boolean>
+    </void>
+    <void property="databaseProductVersion">
+     <string>5.5.5-10.4.28-MariaDB</string>
+    </void>
+    <void property="dbName">
+     <string>db1</string>
+    </void>
+    <void property="dbType">
+     <int>2</int>
+    </void>
+    <void property="displayedSchemas">
+     <array class="zigen.plugin.db.core.SchemaInfo" length="5">
+      <void index="0">
+       <object class="zigen.plugin.db.core.SchemaInfo">
+        <void property="checked">
+         <boolean>true</boolean>
+        </void>
+        <void property="config">
+         <object idref="DBConfig0"/>
+        </void>
+        <void property="name">
+         <string>information_schema</string>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="zigen.plugin.db.core.SchemaInfo">
+        <void property="checked">
+         <boolean>true</boolean>
+        </void>
+        <void property="config">
+         <object idref="DBConfig0"/>
+        </void>
+        <void property="name">
+         <string>mysql</string>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="zigen.plugin.db.core.SchemaInfo">
+        <void property="checked">
+         <boolean>true</boolean>
+        </void>
+        <void property="config">
+         <object idref="DBConfig0"/>
+        </void>
+        <void property="name">
+         <string>performance_schema</string>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="zigen.plugin.db.core.SchemaInfo">
+        <void property="checked">
+         <boolean>true</boolean>
+        </void>
+        <void property="config">
+         <object idref="DBConfig0"/>
+        </void>
+        <void property="name">
+         <string>phpmyadmin</string>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="zigen.plugin.db.core.SchemaInfo">
+        <void property="checked">
+         <boolean>true</boolean>
+        </void>
+        <void property="config">
+         <object idref="DBConfig0"/>
+        </void>
+        <void property="name">
+         <string>test</string>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+    <void property="driverName">
+     <string>com.mysql.jdbc.Driver</string>
+    </void>
+    <void property="driverVersion">
+     <string>mysql-connector-java-8.0.28 (Revision: 7ff2161da3899f379fb3171b6538b191b1c5c7e2)</string>
+    </void>
+    <void property="filterPattern">
+     <string></string>
+    </void>
+    <void property="noLockMode">
+     <boolean>true</boolean>
+    </void>
+    <void property="password">
+     <string></string>
+    </void>
+    <void property="schema">
+     <string></string>
+    </void>
+    <void property="url">
+     <string>jdbc:mysql://localhost:3306/</string>
+    </void>
+    <void property="userId">
+     <string>root</string>
+    </void>
+   </object>
+  </void>
+ </array>
+</java>
